@@ -12,7 +12,10 @@ public class CalculatorView {
 
     public char getOperator() {
         System.out.print("Enter operator (+, -, *, /): ");
+        System.out.print("Your choice is Good");
+
         return scanner.next().charAt(0);
+
     }
 
     public void displayResult(double result) {
