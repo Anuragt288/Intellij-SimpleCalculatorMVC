@@ -15,7 +15,6 @@ public class CalculatorApp {
         char operator = view.getOperator();
 
         controller.calculate(operator, num1, num2);
-        //System
-        // New Commit
+        //controller
     }
 }
